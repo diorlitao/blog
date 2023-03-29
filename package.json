@@ -1,0 +1,26 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "基于VitePress创建的前端网站项目",
+  "private": true,
+  "scripts": {
+    "dev": "vitepress dev docs --port=9999",
+    "build": "vitepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diorlitao/blog.git"
+  },
+  "author": "diorlitao <diorlitao@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diorlitao/blog/issues"
+  },
+  "homepage": "https://github.com/diorlitao/blog#readme",
+  "devDependencies": {
+    "@mdit-vue/shared": "^0.12.0",
+    "sass": "^1.60.0",
+    "vitepress": "1.0.0-alpha.63",
+    "vue": "^3.2.47"
+  }
+}
